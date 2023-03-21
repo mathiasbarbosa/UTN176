@@ -1,0 +1,50 @@
+/* * Tipos de selectores */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    color:blue;
+    font-size: 60px;
+}
+
+.parrafo{
+    color: orange;
+} 
+
+div p{
+    text-decoration: line-through;
+}
+
+#titulo{
+    color: red;
+}
+
+div, ul{
+    background-color: tomato;
+} 
+
+ul > li{
+    font-weight: bold;
+}
+
+[class]{
+   color: blue;
+}
+
+ul > li:first-child{
+    color:yellow
+}
+
+#titulo:hover{
+    color: blueviolet;
+    font-weight: 800;
+    text-decoration: line-through;
+}
+
+h1::before{
+    content: 'Hola a todos ';
+}

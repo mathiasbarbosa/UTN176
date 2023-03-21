@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    border: 1px solid red;
+    position: relative; 
+    background-color: aqua;
+}
+
+header > img {
+    width: 10%;
+    border-radius: 50%;
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+header > img:hover{
+    border: 2px solid red;
+}
+
+#menu, #menu > ul,  #menu > ul > li {
+    display: inline-block;
+}
+
+/* #menu > ul {
+    display: inline;
+}
+
+#menu > ul > li {
+    display: inline;
+} */
+
+#menu > ul > li{
+
+    margin: 0 15px;
+}
+
+#menu{
+   /* height: 120px; */
+   position: absolute;
+   right: 0;
+  top: 60px;
+  
+}
+
+#menu > ul {
+    margin: auto 0;
+}
+
+#container{
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#container > h1{
+    text-align: center;
+}
+
+.containerProducts{
+    width: max-content;
+    margin: auto;
+}
+
+.containerProducts > div{
+    display: inline-block;
+    margin: 50px;
+}
+
+.card{
+    width: 200px;
+}
+
+.card > button {
+    margin: 10px 0;
+    display: block;
+}
+
+.card > p,  .card > span{
+    margin: 10px 0;
+}
