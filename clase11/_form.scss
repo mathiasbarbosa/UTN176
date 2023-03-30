@@ -1,0 +1,29 @@
+@import 'variables';
+
+
+@mixin form-container($ancho: 300px){
+    width: $ancho;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    @include form-container($ancho: 700px);
+    border: 1px solid red;
+    padding: 10px;
+    input{
+        padding: 8px;
+    };
+
+    button{
+        margin-top: 8px;
+        width: 150px;
+        padding: 8px;
+        background-color: $colorPrincipal ;
+        color: #fff;
+        &:hover{
+            border: 2px solid $colorSecundario;
+        }
+    }
+}

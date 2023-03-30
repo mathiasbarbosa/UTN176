@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'form';
+
+
+main{
+
+    display: flex;
+    border: 1px solid $colorSecundario;
+    height: 80vh;
+    align-items: center;
+
+    h1{
+        color:$colorPrincipal
+    }
+}

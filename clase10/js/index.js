@@ -38,6 +38,7 @@ function renderHTML(array) {
 
         i.addEventListener('click', () => {
             const index = arrayTasks.indexOf(elemento)
+            console.log(elemento);
             console.log(index);
             arrayTasks.splice(index, 1)
             console.log(array);

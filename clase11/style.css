@@ -1,0 +1,25 @@
+@media(max-width: 600px){
+    main{
+        display: none;
+    }
+}
+
+
+.contenedor{
+    position: relative;
+   
+}
+
+#titulo{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    color: red;
+    
+}
+
+@media (min-width: 319px) and (max-width: 425px) {
+    #titulo{
+        left: 150px;
+    }
+}
