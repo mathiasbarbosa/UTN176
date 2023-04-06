@@ -35,3 +35,19 @@ table{
     background-color: lightsalmon;
  }
 }
+
+
+#texto1{
+    text-align: center;
+}
+#texto2{
+    text-align: right;
+    
+}
+/* #texto3{
+    text-align: left;
+
+} */
+#texto3{
+   text-align: end;
+}

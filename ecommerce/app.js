@@ -155,6 +155,7 @@ function agregarAlCarrito(){
 for (let i = 0; i < productosInformaticos.length; i++) {
 
   if (productosInformaticos[i].destacado === true) {
+    console.log(productosInformaticos[i]);
     htmlInterfaz(productosInformaticos[i])
     
   }else{
@@ -165,5 +166,3 @@ for (let i = 0; i < productosInformaticos.length; i++) {
 
 
 agregarAlCarrito() 
-
-
