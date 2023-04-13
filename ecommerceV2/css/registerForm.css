@@ -1,0 +1,53 @@
+form {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+form input {
+  padding: 8px;
+}
+form button {
+  margin-top: 8px;
+  width: 150px;
+  padding: 8px;
+  background-color: #193452;
+  color: #fff;
+}
+form button:hover {
+  border: 2px solid #9f2930;
+}
+
+#formLogin{
+  margin: auto;
+}
+
+#formLogin > div {
+  display: flex;
+  justify-content: center;
+}
+
+.titleLogin{
+  text-align: center;
+  color:#193452; 
+  font-size: 60px;
+}
+
+main {
+  display: flex;
+
+  height: 80vh;
+  align-items: center;
+}
+main h1 {
+  color: #193452;
+}
+
+
+.containerTitle{
+  width: 50%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
